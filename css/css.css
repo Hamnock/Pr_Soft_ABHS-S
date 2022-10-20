@@ -13,6 +13,9 @@ body{
         -moz-user-select: none;
         user-select: none;
       }
+      .imgcarousel{
+        height: 320px;
+      }
       .marketing{
         margin-top: 1%;
       }
