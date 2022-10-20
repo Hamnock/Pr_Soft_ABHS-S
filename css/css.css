@@ -5,11 +5,6 @@ body{
     h1{
         display: none;
     }
-
-    main{
-        margin-bottom: 5%;
-    }
-
     
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -17,6 +12,20 @@ body{
         -webkit-user-select: none;
         -moz-user-select: none;
         user-select: none;
+      }
+      .marketing{
+        margin-top: 1%;
+      }
+      .row{
+        text-align: center;
+      }
+
+      .fixed-topV2{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 0;
       }
 
       @media (min-width: 768px) {
@@ -61,3 +70,12 @@ body{
         -webkit-overflow-scrolling: touch;
       }
   
+      #contact {
+        margin: 0 35% 0 35%;
+        background-color: #720f40;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        color: white;
+        margin-bottom: 1%;
+      }
