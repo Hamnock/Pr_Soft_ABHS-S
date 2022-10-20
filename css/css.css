@@ -31,6 +31,10 @@ body{
         z-index: 0;
       }
 
+      .footer{
+        margin-bottom: 2%;
+      }
+
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
