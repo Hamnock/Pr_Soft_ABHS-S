@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "Caviars dream";
+  src: url("../CaviarDreams.ttf");
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Caviars dream";
+}
+
+html {
+  background-color: #C0392B;
+  scroll-behavior: smooth;
+}
+
+p {
+  color: #ffe4c4;
+}
+
+.pOne {
+  background-image: url("../img/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+
+.pOne .logo img {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+.bg img {
+  position: relative;
+  width: 1400px;
+  height: 75%;
+  z-index: -1;
+}
+
+.introDescription {
+  position: absolute;
+  top: 300px;
+  left: 175px;
+  font-size: 3rem;
+}
+
+.contactButton {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+}
+.contactButton a {
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  background-color: #edc0cf;
+  border-radius: 25px;
+}
+
+.pTwo {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoChocolatrie img{
+  width: 500px;
+  height: 300px;
+  margin-left: 40px;
+  margin-right: 25px;
+}
+
+.pTwo .photoDescription p {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #ffe4c4;
+}
+
+.categoryName {
+  padding-top: 50px;
+}
+
+.categoryName p{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffe4c4;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid #ffe4c4;
+  border-radius: 15px;
+  margin: 70px;
+  width: 390px;
+  height: 240px;
+}
+
+#productContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.product img {
+  width: 360px;
+  height: 175px;
+  margin: 15px;
+}
+
+.plus{
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/photo1.png");
+  background-position: center;
+  background-size: 10%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  height: 100px;
+}
+.plus h1{
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.more-info{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.pFour{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.photoJulie{
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+}
+.photoJulie img{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  border: 5px solid;
+  border-radius: 50%;
+  border-color: #edc0cf;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ffe4c4;
+  font-size: 2rem;
+}
+
+.contactMe form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form input, textarea{
+  margin: 20px 0;
+  resize: none;
+  background-color: #C0392B;
+  border: 3px solid #edc0cf;
+  color: #edc0cf;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #edc0cf;
+}
+
+textarea::placeholder{
+  color: #edc0cf;
+}
+form input {
+  height: 25px;
+}
+
+form textarea {
+  height: 75px;
+}
+
+form button {
+  background-color: #C0392B;
+  font-size: 1.2rem;
+  color:#edc0cf;
+  border: 3px solid #edc0cf;
+}
+
+.contactZone {
+  margin-right: 250px;
+}
+.openingHours{
+  font-size: 1.3rem;
+}
+
+#footer {
+  font-weight: 900x;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
